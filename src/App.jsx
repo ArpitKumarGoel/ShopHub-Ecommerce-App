@@ -1,12 +1,12 @@
 import React from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 
-import Navbar from './components/Navbar'
+import Navbar from './components/Navbar.jsx'
 import Cart from './pages/Cart'
-import Product_Detail from "./pages/Product_Detail"
-import All_Products from './components/All_Products'
-import ProductByCategory from './pages/ProductByCategory'
-import Search_Product from './pages/Search_Product'
+import Product_Detail from "./pages/Product_Detail.jsx"
+import All_Products from './components/All_Products.jsx'
+import ProductByCategory from './pages/ProductByCategory.jsx'
+import Search_Product from './pages/Search_Product.jsx'
 import DataState from './context/DataState'
 
 const App = () => {

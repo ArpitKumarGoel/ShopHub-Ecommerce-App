@@ -3,7 +3,7 @@ import {
   FaMobileAlt, FaLaptop, FaTabletAlt,FaClock,FaHeadphones,FaThLarge,FaRupeeSign,
 } from "react-icons/fa";
 import DataContext from "../context/DataContext";
-import { items } from "../context/data";
+import { items } from "../context/Data";
 
 const categories=[
   {name:"All Products",icon:<FaThLarge/>},
@@ -27,7 +27,7 @@ const ShopByCategory = () => {
     );
   }
    const filterByPrice = (price) => {
-  setSelectedPrices(price); // Selected badge highlight karne ke liye
+  setSelectedPrices(price); 
   setProducts(items.filter((pro) => Number(pro.price) <= price));
 };
   return (

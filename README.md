@@ -65,5 +65,4 @@ ShopHub-Ecommerce-App/
 ├── package.json
 └── README.md
 ```
-```
  

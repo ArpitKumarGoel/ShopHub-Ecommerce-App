@@ -1,10 +1,13 @@
-import React from 'react'
+import React,{ useContext} from 'react'
 import { useParams } from 'react-router'
-import { items } from '../context/data';
+import { items } from '../context/Data';
 import Products from '../components/Products';
 import "./Pro_Detail.css"
+import DataContext from '../context/DataContext';
+
 const Product_Detail = () => {
   const {id}=useParams();
+   const { addToCart } = useContext(DataContext);
   const product=items.find(pro=>pro.id==id);
    const relatedProducts = items.filter(
     (pro) => pro.category.toLowerCase() === product.category.toLowerCase()

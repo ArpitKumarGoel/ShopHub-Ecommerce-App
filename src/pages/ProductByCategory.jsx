@@ -2,8 +2,8 @@ import React from 'react'
 import VideoPlayer from '../components/VideoPlayer'
 import Products from '../components/Products'
 import { useParams } from 'react-router'
-import { Videos } from '../context/data'
-import { items } from '../context/data'
+import { Videos, items } from '../context/Data'
+
 
 const ProductByCategory = () => {
   const {cat}=useParams();

@@ -63,5 +63,4 @@ ShopHub-Ecommerce-App/
 │   └── main.jsx        # Entry point
 ├── package.json
 └── README.md
-👤 Author
  

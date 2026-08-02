@@ -51,8 +51,9 @@ Make sure you have Node.js installed on your machine.
 4. Open http://localhost:5173 in your browser to view the app!
 
 
-📂 Project Structure
-Plaintext
+## 📂 Project Structure
+
+```text
 ShopHub-Ecommerce-App/
 ├── public/
 ├── src/
@@ -63,4 +64,6 @@ ShopHub-Ecommerce-App/
 │   └── main.jsx        # Entry point
 ├── package.json
 └── README.md
+```
+```
  

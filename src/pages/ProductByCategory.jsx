@@ -1,7 +1,7 @@
 import React from 'react'
 import VideoPlayer from '../components/VideoPlayer'
 import Products from '../components/Products'
-import { useParams } from 'react-router'
+import { useParams } from 'react-router-dom'
 import { Videos, items } from '../context/Data'
 
 

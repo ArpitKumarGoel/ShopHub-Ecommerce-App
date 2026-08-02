@@ -1,6 +1,6 @@
 import React, {useState,useContext} from 'react'
 import { FaShopify , FaShoppingCart ,FaSearch } from "react-icons/fa"; 
-import { Link, useNavigate } from 'react-router';
+import { Link, useNavigate } from 'react-router-dom';
 import DataContext from '../context/DataContext';
 
 const NavBar = () => {
